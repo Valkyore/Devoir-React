@@ -143,7 +143,7 @@ function Main () {
           <div className="col-md-6">
             {/* Image */}
             <img
-              src={`${process.env.PUBLIC_URL}/img/john-doe-about`.jpg}
+              src={`${process.env.PUBLIC_URL}/img/john-doe-about.jpg`}
               alt="À propos illustration"
               className="img-fluid rounded mb-4"
               style={{
