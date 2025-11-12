@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  background-color: #EEE;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
+
+body,.background, footer {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  background-color: #EEE;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 600; 
+  color: #000000;
+}
+p, Form{
+  color: #444;
+}
+#cardService{
+  min-height: 40vh;
+}
+
+#backToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/* effet au survol des liens de navigation */
+.navbar a:hover,
+.navbar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: background-color 0.3s ease;
+}
+
+/* Effet au survol des icones dans la section Services */
+.cardService:hover i {
+  color: #cde1f8 !important;
+  transition: color 0.3s ease;
+}
+
+/* Effet au survol du bouton Retour en haut */
+#backToTopButton:hover {
+  background-color: #298eff !important;
+  transition: background-color 0.3s ease;
+}
+
