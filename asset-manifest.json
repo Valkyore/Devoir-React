@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Devoir-React/static/css/main.77518419.css",
+    "main.js": "/Devoir-React/static/js/main.9909bfb4.js",
+    "static/js/453.a0e3c845.chunk.js": "/Devoir-React/static/js/453.a0e3c845.chunk.js",
+    "index.html": "/Devoir-React/index.html",
+    "main.77518419.css.map": "/Devoir-React/static/css/main.77518419.css.map",
+    "main.9909bfb4.js.map": "/Devoir-React/static/js/main.9909bfb4.js.map",
+    "453.a0e3c845.chunk.js.map": "/Devoir-React/static/js/453.a0e3c845.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77518419.css",
+    "static/js/main.9909bfb4.js"
+  ]
+}
