@@ -34,10 +34,10 @@ function Réalisations () {
     <div className="mainBackround">
       
       <Bannière
-        desktopImage={"/img/banner.jpg"}
-        tabletImage="/img/banner-tablette.jpg"
-        mobileImage="/img/banner-mobile.jpg"
-        />
+        desktopImage={`${process.env.PUBLIC_URL}/img/banner.jpg`}
+        tabletImage={`${process.env.PUBLIC_URL}/img/banner-tablette.jpg`}
+        mobileImage={`${process.env.PUBLIC_URL}/img/banner-mobile.jpg`}
+      />
 
       {/* Section Portfolio */}
       <section className="portfolio  py-5">
@@ -53,7 +53,7 @@ function Réalisations () {
             <div className="col-md-4">
               <div className="card">
                 <img
-                  src="/img/portfolio/fresh-food.jpg" // Image pour "Fresh Food"
+                  src={`${process.env.PUBLIC_URL}/img/portfolio/fresh-food.jpg`}// Image pour "Fresh Food"
                   className="card-img-top"
                   alt="Fresh Food"
                 />
@@ -74,7 +74,7 @@ function Réalisations () {
             <div className="col-md-4">
               <div className="card">
                 <img
-                  src="/img/portfolio/restaurant-japonais.jpg" // Image pour "Restaurant Akira"
+                  src={`${process.env.PUBLIC_URL}/img/portfolio/restaurant-japonais.jpg`} // Image pour "Restaurant Akira"
                   className="card-img-top"
                   alt="Restaurant Akira"
                 />
@@ -95,7 +95,7 @@ function Réalisations () {
             <div className="col-md-4">
               <div className="card">
                 <img
-                  src="/img/portfolio/espace-bien-etre.jpg" // Image pour "Espace bien-être"
+                  src={`${process.env.PUBLIC_URL}/img/portfolio/espace-bien-etre.jpg`} // Image pour "Espace bien-être"
                   className="card-img-top"
                   alt="Espace bien-être"
                 />

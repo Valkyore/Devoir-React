@@ -32,9 +32,9 @@ function Blog () {
 
     <div className="background">
         <Bannière
-          desktopImage={"/img/banner.jpg"}
-          tabletImage="/img/banner-tablette.jpg"
-          mobileImage="/img/banner-mobile.jpg"
+          desktopImage={`${process.env.PUBLIC_URL}/img/banner.jpg`}
+          tabletImage={`${process.env.PUBLIC_URL}/img/banner-tablette.jpg`}
+          mobileImage={`${process.env.PUBLIC_URL}/img/banner-mobile.jpg`}
         />
 
       {/* Section Blog */} 
@@ -52,7 +52,7 @@ function Blog () {
             <div className="col-md-4">
               <div className="card">
                 <img
-                  src="/img/blog/coder.jpg" 
+                  src={`${process.env.PUBLIC_URL}/img/blog/coder.jpg`}
                   className="card-img-top"
                   alt="coder.jpg"
                 />
@@ -73,7 +73,7 @@ function Blog () {
             <div className="col-md-4">
               <div className="card">
                 <img
-                  src="/img/blog/croissance.jpg"
+                  src={`${process.env.PUBLIC_URL}/img/blog/croissance.jpg`}
                   className="card-img-top"
                   alt="croissance.jpg"
                 />
@@ -94,7 +94,7 @@ function Blog () {
             <div className="col-md-4">
               <div className="card">
                 <img
-                  src="/img/blog/google.jpg"
+                  src={`${process.env.PUBLIC_URL}/img/blog/google.jpg`}
                   className="card-img-top"
                   alt="google.jpg"
                 />
@@ -115,7 +115,7 @@ function Blog () {
             <div className="col-md-4">
               <div className="card">
                 <img
-                  src="/img/blog/screens.jpg"
+                  src={`${process.env.PUBLIC_URL}/img/blog/screens.jpg`}
                   className="card-img-top"
                   alt="google.jpg"
                 />
@@ -136,7 +136,7 @@ function Blog () {
             <div className="col-md-4">
               <div className="card">
                 <img
-                  src="/img/blog/seo.jpg"
+                  src={`${process.env.PUBLIC_URL}/img/blog/seo.jpg`}
                   className="card-img-top"
                   alt="google.jpg"
                 />
@@ -157,7 +157,7 @@ function Blog () {
             <div className="col-md-4">
               <div className="card">
                 <img
-                  src="/img/blog/technos.png"
+                  src={`${process.env.PUBLIC_URL}/img/blog/technos.png`}
                   className="card-img-top"
                   alt="google.jpg"
                 />

@@ -35,7 +35,7 @@ function Main () {
       <section
         className="hero-section d-flex flex-column justify-content-center align-items-center"
         style={{
-          backgroundImage: `url(/img/hero-bg.jpg)`,
+          backgroundImage: `url(${process.env.PUBLIC_URL}/img/hero-bg.jpg)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           height: '100vh',
@@ -46,7 +46,7 @@ function Main () {
         <div
           className="d-none d-md-block d-lg-none"
           style={{
-            backgroundImage: `url(/img/hero-bg-tablette.jpg)`,
+            backgroundImage: `url(${process.env.PUBLIC_URL}/img/hero-bg-tablette.jpg)`,
             position:'absolute',
             top:0,
             left:0,
@@ -62,7 +62,7 @@ function Main () {
         <div
           className="d-block d-md-none"
           style={{
-            backgroundImage: `url(/img/hero-bg-mobile.jpg)`,
+            backgroundImage: `url(${process.env.PUBLIC_URL}/img/hero-bg-mobile.jpg)`,
             position:'absolute',
             top:0,
             left:0,
@@ -143,7 +143,7 @@ function Main () {
           <div className="col-md-6">
             {/* Image */}
             <img
-              src="/img/john-doe-about.jpg"
+              src={`${process.env.PUBLIC_URL}/img/john-doe-about`.jpg}
               alt="À propos illustration"
               className="img-fluid rounded mb-4"
               style={{
